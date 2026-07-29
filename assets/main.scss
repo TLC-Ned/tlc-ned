@@ -12,28 +12,32 @@ $button-hover:      #{{ site.data.colors.button_hover }};
 @import "minima";
 
 html {
-  scrollbar-gutter: stable;
+    scrollbar-gutter: stable;
 }
 
 body {
-  background-color: $main-background;
-  color: $dark-text;
+    background-color: $main-background;
+    color: $dark-text;
+}
+
+a, a:visited {
+    color: $links;
 }
 
 .site-header, .site-footer {
-  background-color: $header-and-footer;
+    background-color: $header-and-footer;
 }
 
 .site-header .site-title,
 .site-header .site-nav .page-link {
-  color: $main-background;
+    color: $main-background;
 }
 
 .footer-heading {
     color: $main-background;
 }
-.site-footer a {
-  color: $footer-links;
+.site-footer a a:visited {
+    color: $footer-links;
 }
 .site-footer a:hover {
     color: $footer-links;
@@ -41,31 +45,31 @@ body {
 }
 
 a {
-  color: $links;
+    color: $links;
 }
 
 a:hover {
-  color: $header-and-footer;
+    color: $header-and-footer;
 }
 
 h1, h2, h3 {
-  color: $accent;
+    color: $accent;
 }
 
 button, input[type="submit"] {
-  background-color: $accent;
-  color: $main-background;
-  border: none;
-  padding: 0.6em 1.2em;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1em;
+    background-color: $accent;
+    color: $main-background;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
 }
 
 button:hover, input[type="submit"]:hover {
-  background-color: $button-hover;
+    background-color: $button-hover;
 }
 
 hr, .site-header {
-  border-bottom: 3px solid $accent;
+    border-bottom: 3px solid $accent;
 }

@@ -14,6 +14,6 @@ permalink: /about/
         <li>Practical land management consultations</li>
     </p>
     <p>
-        <a href="/contact-us">Contact Us</a> or check out our <a href="/gallery">gallery</a> for more details.
+        <a href="/contact-us">Contact us</a> or check out our <a href="/gallery">gallery</a> for more details.
     </p>
  </div>
