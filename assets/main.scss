@@ -3,6 +3,10 @@
 
 @import "minima";
 
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   background-color: #f7f4ee;
   color: #2c2a26;
