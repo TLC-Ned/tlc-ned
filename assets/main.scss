@@ -11,6 +11,10 @@ $button-hover:      #{{ site.data.colors.button_hover }};
 
 @import "minima";
 
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   background-color: $main-background;
   color: $dark-text;
@@ -48,6 +52,20 @@ h1, h2, h3 {
   color: $accent;
 }
 
+button, input[type="submit"] {
+  background-color: $accent;
+  color: $main-background;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
 button:hover, input[type="submit"]:hover {
   background-color: $button-hover;
+}
+
+hr, .site-header {
+  border-bottom: 3px solid $accent;
 }
