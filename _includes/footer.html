@@ -20,8 +20,9 @@
   <div class="footer-col footer-col-3">
     {%- if site.github_username -%}
     <p>
+        {% include icon-github.svg %}
       <a href="https://github.com/{{ site.github_username }}">
-        {{ site.github_username }} on GitHub
+        {{ site.github_username }}
       </a>
     </p>
     {%- endif -%}

@@ -1,0 +1,64 @@
+---
+---
+
+@import "minima";
+
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  background-color: #f7f4ee;
+  color: #2c2a26;
+}
+
+.site-header, .site-footer {
+  background-color: #2d3b2d;
+}
+
+.site-header .site-title,
+.site-header .site-nav .page-link {
+  color: #f7f4ee;
+}
+
+a {
+  color: #4a6b4a;
+}
+
+a:hover {
+  color: #2d3b2d;
+}
+
+.footer-heading,
+.site-footer p,
+.site-footer a {
+  color: #d8d3c4;
+}
+
+.site-footer a {
+  color: #a9c9a4;
+}
+
+// Wood/tan accent — page headings and borders
+h1, h2, h3 {
+  color: #8b6f47;
+}
+
+hr, .site-header {
+  border-bottom: 3px solid #8b6f47;
+}
+
+// Buttons (e.g. contact form submit)
+button, input[type="submit"] {
+  background-color: #8b6f47;
+  color: #f7f4ee;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #6f5837;
+}

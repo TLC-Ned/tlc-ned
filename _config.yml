@@ -6,8 +6,7 @@
 
 title: Trees Land Critters
 email: kieran@tlcned.com
-# description: >-
-#   Trees Land Critters, LLC<br>Nederland, CO
+description: TLC Ned
 baseurl: ""
 url: "https://tlcned.com"
 github_username:  tlc-ned
@@ -20,3 +19,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-github-metadata
+header_pages:
+  - about.markdown
+  - contactus.markdown
+  - gallery.markdown
