@@ -1,64 +1,53 @@
 ---
 ---
 
+$main-background:   #{{ site.data.colors.main_background }};
+$dark-text:         #{{ site.data.colors.dark_text }};
+$header-and-footer: #{{ site.data.colors.header_and_footer }};
+$links:             #{{ site.data.colors.links }};
+$footer-links:      #{{ site.data.colors.footer_links }};
+$accent:            #{{ site.data.colors.heading_and_border_accents }};
+$button-hover:      #{{ site.data.colors.button_hover }};
+
 @import "minima";
 
-html {
-  scrollbar-gutter: stable;
-}
-
 body {
-  background-color: #f7f4ee;
-  color: #2c2a26;
+  background-color: $main-background;
+  color: $dark-text;
 }
 
 .site-header, .site-footer {
-  background-color: #2d3b2d;
+  background-color: $header-and-footer;
 }
 
 .site-header .site-title,
 .site-header .site-nav .page-link {
-  color: #f7f4ee;
+  color: $main-background;
+}
+
+.footer-heading {
+    color: $main-background;
+}
+.site-footer a {
+  color: $footer-links;
+}
+.site-footer a:hover {
+    color: $footer-links;
+    text-decoration: underline;
 }
 
 a {
-  color: #4a6b4a;
+  color: $links;
 }
 
 a:hover {
-  color: #2d3b2d;
+  color: $header-and-footer;
 }
 
-.footer-heading,
-.site-footer p,
-.site-footer a {
-  color: #d8d3c4;
-}
-
-.site-footer a {
-  color: #a9c9a4;
-}
-
-// Wood/tan accent — page headings and borders
 h1, h2, h3 {
-  color: #8b6f47;
-}
-
-hr, .site-header {
-  border-bottom: 3px solid #8b6f47;
-}
-
-// Buttons (e.g. contact form submit)
-button, input[type="submit"] {
-  background-color: #8b6f47;
-  color: #f7f4ee;
-  border: none;
-  padding: 0.6em 1.2em;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 1em;
+  color: $accent;
 }
 
 button:hover, input[type="submit"]:hover {
-  background-color: #6f5837;
+  background-color: $button-hover;
 }
