@@ -4,5 +4,5 @@
 layout: home
 date:   2026-07-25 17:20:18 -0600
 ---
-# Welcome to TLC Ned!
+# Welcome to TLC Ned
 We love trees, animals, and not getting burned by wildfires!
