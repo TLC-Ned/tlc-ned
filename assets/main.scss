@@ -11,6 +11,21 @@ $button-hover:      #{{ site.data.colors.button_hover }};
 
 @import "minima";
 
+@include media-query($on-palm) {
+  .site-nav {
+    background-color: $header-and-footer;
+    border-color: $accent;
+
+    .page-link {
+      color: $main-background;
+    }
+  }
+
+  .site-nav .menu-icon > svg path {
+    fill: $main-background;
+  }
+}
+
 html {
     scrollbar-gutter: stable;
 }
