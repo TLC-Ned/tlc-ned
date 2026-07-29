@@ -7,17 +7,13 @@ permalink: /contact-us/
   action="https://formspree.io/f/xdaqjdgd"
   method="POST"
 >
-<p>
-  <label>
-    Your email:
-    <input type="email" name="_replyto" required>
-  </label>
-  </p>
-  <p>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  </p>
+  <div class="form-field">
+    <label for="email">Your email</label>
+    <input type="email" id="email" name="_replyto" required>
+  </div>
+  <div class="form-field">
+    <label for="message">Your message</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+  </div>
   <button type="submit">Send</button>
 </form>
