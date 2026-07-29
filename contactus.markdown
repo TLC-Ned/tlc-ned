@@ -3,5 +3,21 @@ layout: page
 title: Contact Us
 permalink: /contact-us/
 ---
-<p>kieran@tlcned.com</p>
-<p>Contact form goes here</p>
+<form
+  action="https://formspree.io/f/xdaqjdgd"
+  method="POST"
+>
+<p>
+  <label>
+    Your email:
+    <input type="email" name="_replyto" required>
+  </label>
+  </p>
+  <p>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  </p>
+  <button type="submit">Send</button>
+</form>
