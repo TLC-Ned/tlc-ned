@@ -6,8 +6,8 @@
 
 title: Trees Land Critters
 email: kieran@tlcned.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Trees Land Critters, LLC
+# description: >-
+#   Trees Land Critters, LLC<br>Nederland, CO
 baseurl: ""
 url: "https://tlcned.com"
 github_username:  tlc-ned
