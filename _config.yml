@@ -16,3 +16,7 @@ github_username:  tlc-ned
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-titles-from-headings
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-github-metadata
