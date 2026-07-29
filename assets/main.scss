@@ -88,3 +88,43 @@ button:hover, input[type="submit"]:hover {
 hr, .site-header {
     border-bottom: 3px solid $accent;
 }
+
+form {
+  max-width: 500px;
+}
+
+.form-field {
+  margin-bottom: 1.2em;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 0.35em;
+  font-weight: 600;
+  color: $dark-text;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 0.6em 0.75em;
+  border: 1px solid rgba($accent, 0.4);
+  border-radius: 4px;
+  background-color: #fff;
+  font-family: inherit;
+  font-size: 1em;
+  color: $dark-text;
+  box-sizing: border-box;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: none;
+  border-color: $accent;
+  box-shadow: 0 0 0 3px rgba($accent, 0.15);
+}
+
+.form-field textarea {
+  resize: vertical;
+  min-height: 120px;
+}
