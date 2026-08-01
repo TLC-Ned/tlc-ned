@@ -3,7 +3,7 @@ layout: page
 title: Services
 permalink: /services/
 ---
-<div style="overflow: auto;">
+<div style="overflow: auto; list-style-position: inside">
     <img src="/assets/images/taking_down_ponderosa_in_snow.jpg" alt="Man climbing leaning tree in snow" width="30%" style="float: right">
     <p><strong>Services that we offer include:</strong>
         <li>Fire mitigation</li>
