@@ -3,6 +3,7 @@ layout: page
 title: Gallery
 permalink: /gallery/
 ---
+
 <div class="gallery">
   {% for photo in site.data.gallery %}
     <figure class="gallery-item">
@@ -13,4 +14,3 @@ permalink: /gallery/
     </figure>
   {% endfor %}
 </div>
-
