@@ -5,8 +5,8 @@ permalink: /contact-us/
 ---
 
 <div>
-    <p>Phone: (720)-730-7971</p>
-    <p>To email us, please fill out the form below:</p>
+  <p>Phone: <a href="tel:+17207307971">(720)-730-7971</a></p>
+  <p>To email us, please fill out the form below:</p>
 </div>
 <form
   action="https://formspree.io/f/xdaqjdgd"
