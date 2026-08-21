@@ -9,7 +9,7 @@ email: kieran@tlcned.com
 description: TLC Ned
 baseurl: ""
 url: "https://tlcned.com"
-github_username:  tlc-ned
+github_username: tlc-ned
 
 # Build settings
 theme: minima
@@ -21,6 +21,6 @@ plugins:
   - jekyll-github-metadata
 header_pages:
   - services.markdown
-  - about.markdown
   - contactus.markdown
+  - about.markdown
   - gallery.markdown
