@@ -150,3 +150,8 @@ form {
   font-size: 0.9em;
   color: rgba($dark-text, 0.75);
 }
+
+img, svg { max-width: 100%; height: auto; }
+
+
+* { outline: 1px solid red; }
