@@ -11,7 +11,7 @@ date: 2026-07-25 17:20:18 -0600
     <img src="/assets/images/working_garden.jpg" alt="Man kneeling inside of an arched mesh garden, building steps" width="100%" style="float: middle">
   </p>
   <p>
-    Based in Nederland, CO, <strong>Trees Land Critters</strong> <i>(aka TLC Ned)</i> is a company dedicated to helping you manage your land and animals responsibly. With more than a decade of professional experience in arboriculture, forestry, and land management, we serve properties across the Front Range foothills and mountain communities with an approach rooted in ecology: we work with the land, not against it.
+    Based in Nederland, CO, <strong>Trees Land Critters, LLC</strong> <i>(aka TLC Ned)</i> is a company dedicated to helping you manage your land and animals responsibly. With more than a decade of professional experience in arboriculture, forestry, and land management, <img src="/assets/images/logos-branding/main_logo_circle.png" alt="Trees Land Critters Logo: chicken on stump with flowers beside it." width="25%" style="float: right">we serve properties across the Front Range foothills and mountain communities with an approach rooted in ecology: we work with the land, not against it.
   </p>
   <p><i>
   Does your homestead need a little TLC?</i> <a href="tel:+17207307971">Call us today to schedule a consultation!</a>

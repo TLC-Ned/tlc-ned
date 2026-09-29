@@ -5,8 +5,8 @@ permalink: /contact-us/
 ---
 
 <div>
-  <p>Phone: <a href="tel:+17207307971">(720)-730-7971</a></p>
-  <p>To email us, please fill out the form below:</p>
+<p>Phone: <a href="tel:+17207307971">(720)-730-7971</a></p>
+<p>To email us, please fill out the form below:</p>
 </div>
 <form
   action="https://formspree.io/f/xdaqjdgd"
@@ -22,3 +22,7 @@ permalink: /contact-us/
   </div>
   <button type="submit">Send</button>
 </form>
+<p>
+<br>
+<img src="/assets/images/logos-branding/leaf_circle.png" alt="Painting of aspen leaf." width="20%" style="float: none">     <img src="/assets/images/logos-branding/mountain_circle.png" alt="Painting of mountains." width="20%" style="float: none">     <img src="/assets/images/logos-branding/chipmunk_circle .png" alt="Painting of chipmunk with geranium flower." width="20%" style="float: none">
+</p>
