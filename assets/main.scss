@@ -156,7 +156,7 @@ img, svg { max-width: 100%; height: auto; }
 .site-title::before {
   content: "";
   display: inline-block;
-  background-image: url("{{ '/assets/images/logos-branding/siteheader.png' | / }}");
+  background-image: url("{{ '/assets/images/logos-branding/siteheader.png' }}");
   background-size: contain;
   background-repeat: no-repeat;
   width: 300px;
